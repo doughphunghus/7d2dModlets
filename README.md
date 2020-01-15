@@ -3,8 +3,11 @@ Khelldons original alpha17 "7 Days to Die" modlets.
 
 #### Status of these modlets in a18.3:
 Khelldon-RebarCrossBowBolts - Crossbow does not show bolts as possible ammo, so bolts are useless.
+
 Khelldon-HolyHandGrenade - Works in a18.  Bugs: Does not show damage stats. Have not checked it can be looted.
+
 Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
+
 Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). Have not checked they can be looted.
 
 !! The rest have not been tested yet !!!!
