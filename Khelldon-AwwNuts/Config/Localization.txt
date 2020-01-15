@@ -1,0 +1,3 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonNutsAndBolts,items,Item,,,Nuts And Bolts
+khelldonNutsAndBoltsDesc,items,Item,,,"Nuts and Bolts are needed in crafting metal objects"

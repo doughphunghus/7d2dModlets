@@ -1,0 +1,5 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonRebarBolt,items,Ammo,,,Rebar Bolt (Ammo)
+khelldonRebarBoltDesc,items,Ammo,,,"Rebar Bolts are powerful but heavy, great at close ranges."
+khelldonRebarBoltHot,items,Ammo,,,Hot Rebar Bolt (Ammo)
+khelldonRebarBoltHotDesc,items,Ammo,,,"Hot Rebar bolts are the same as normal rebar bolts but light enemies on fire. How they stay hot and how you carry them is a mystery"

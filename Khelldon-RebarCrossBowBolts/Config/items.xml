@@ -9,17 +9,8 @@
 
 
 
-<!-- 
+<!--
 Khelldon - Lets add rebar bolts to the game, one cold and one hot
-
-This needs Localization, please add the following few lines to /Data/Configs/Localization.txt
-
-khelldonRebarBolt,items,Ammo,EnChanged,Rebar Bolt (Ammo),,,,,
-khelldonRebarBoltDesc,items,Ammo,KgNone,"Rebar Bolts are powerful but heavy, great at close ranges.",,,,,
-khelldonRebarBoltHot,items,Ammo,EnChanged,Hot Rebar Bolt (Ammo),,,,,
-khelldonRebarBoltHotDesc,items,Ammo,KgNone,"Hot Rebar bolts are the same as normal rebar bolts but light enemies on fire. How they stay hot and how you carry them is a mystery",,,,,
-
-
 -->
 
 <append xpath="/items">
@@ -96,7 +87,7 @@ khelldonRebarBoltHotDesc,items,Ammo,KgNone,"Hot Rebar bolts are the same as norm
 
 </append>
 
-<!-- 
+<!--
 Khelldon - Now let's make sure the crossbow knows this can be used as ammo
 note: This will cause conflicts with any other mod that changes the crossbow ammo
 -->

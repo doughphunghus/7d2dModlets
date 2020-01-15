@@ -1,0 +1,4 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonStarterCrate,blocks,Container,,,Starting Gear: Break This Open
+khelldonStarterCrateDesc,blocks,Container,,,"Your Starting gear. Place on the ground and break to open."
+khelldonStarterCrateOpen,blocks,Container,,,Starting Gear: Open This

@@ -4,6 +4,6 @@
 		<Name value="Khelldon - Starter Crate" />
 		<Description value="Gives the Player a Crate of random gear to start the game with." />
 		<Author value="Khelldon" />
-		<Version value="1.0.0" />
+		<Version value="1.0.0-doughphunghus" />
 	</ModInfo>
 </xml>

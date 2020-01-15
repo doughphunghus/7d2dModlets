@@ -9,15 +9,9 @@
 
 
 
-<!-- 
+<!--
 Khelldon - Lets add mortar into the game
 We'll extend from concrete mix to save time
-
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-khelldonMortar,items,Item,KgNone,Mortar,,,,,
-khelldonMortarDesc,items,Item,KgNone,"Mortar is used in the construction of flagstone and cobblestone blocks ",,,,,
-
 -->
 <append xpath="/items">
 <item name="khelldonMortar">

@@ -1,0 +1,2 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonAnimalBabyBear,entityclasses,Entity,,,Baby Bear

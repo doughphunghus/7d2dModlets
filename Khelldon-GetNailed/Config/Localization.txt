@@ -1,0 +1,3 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+resourceNailBent,items,Item,,,Bent Nails
+resourceNailBentDesc,items,Item,,,"You have some bent nails, you can probably straighten them out."

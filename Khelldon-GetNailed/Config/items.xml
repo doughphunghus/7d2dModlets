@@ -9,14 +9,9 @@
 
 
 
-<!-- 
+<!--
 Khelldon - Lets add the bent Nail code
 We'll extend from the standard nail
-
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-resourceNailBent,items,Item,KgNone,Bent Nails,,,,,
-resourceNailBentDesc,items,Item,KgNone,"You have some bent nails, you can probably straighten them out.",,,,,
 
 -->
 <append xpath="/items">
@@ -31,7 +26,7 @@ resourceNailBentDesc,items,Item,KgNone,"You have some bent nails, you can probab
 
 
 
-<!-- 
+<!--
 Khelldon - Lets add the Box of Nails code
 We'll extend from the standard nail
 
@@ -58,7 +53,7 @@ khelldonBoxNailsDesc,items,Item,KgNone,"A regular box nails. Open it up (with re
 Khelldon - hammer tweaks
 This will only work with the vanilla unaltered hammer
 If you have altered the hammer this section may not work with your mod
-Idea by Stompy 
+Idea by Stompy
 -->
 
 <!-- Set new tool harvest category -->
@@ -68,7 +63,7 @@ Idea by Stompy
 
 
 
-<!-- 
+<!--
 Khelldon - Add Crowbar to the world
 Crowbar free asset from Valve Source SDK and coverted to Unity for use with 7 days to Die by Khelldon
 Please credit Valve with this model.

@@ -9,14 +9,9 @@
 
 
 
-<!-- 
+<!--
 Khelldon - Lets add the nuts and bolts to the game
 We'll extend from the standard nail to save time
-
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-khelldonNutsAndBolts,items,Item,KgNone,Nuts And Bolts,,,,,
-khelldonNutsAndBoltsDesc,items,Item,KgNone,"Nuts and Bolts are needed in crafting metal objects",,,,,
 
 -->
 <append xpath="/items">
