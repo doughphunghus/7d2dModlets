@@ -8,7 +8,7 @@ Mods were originally written for a17, updated them for a18, mostly by:
 - Adding/modifying Readme.md to indicate a18 support
 - Modifying ModInfo.xml to change version number to  differentiate it from originals.
   - Bumped version to 2.0.0 when mod is no longer compatible with a17
-  - Added "-doughphunghus" to indicate the modlet comes from this fork
+  - Added "-doughphunghus" to version number to indicate the modlet comes from this fork
 - Migrating existing icons
 
 Notes:
