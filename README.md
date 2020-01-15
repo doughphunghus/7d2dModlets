@@ -1,14 +1,21 @@
 # 7d2dModlets
-Khelldons original alpha17 "7 Days to Die" modlets
+Khelldons original alpha17 "7 Days to Die" modlets.
+
+Status of these modlets in a18.3:
+Khelldon-RebarCrossBowBolts - Crossbow does not show bolts as possible ammo
+Khelldon-HolyHandGrenade - Works in a18
+Khelldon-GetHorny - Works in a18
+Khelldon-AwwNuts - Nuts work for repairing some things (not all tested), finding in loot not confirmed
+
+!! The rest have not been tested yet !!!!
 
 Doughphunghus's fork - General updates:
-
 Mods were originally written for a17, updated them for a18, mostly by:
 - Adding/migrating Localization.txt
 - Adding/modifying Readme.md to indicate a18 support
 - Modifying ModInfo.xml to change version number to  differentiate it from originals.
   - Bumped version to 2.0.0 when mod is no longer compatible with a17
-  - Added "-doughphunghus" to indicate the modlet comes from this fork
+  - Added "-doughphunghus" to version number to indicate the modlet comes from this fork
 - Migrating existing icons
 
 Notes:
