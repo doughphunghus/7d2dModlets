@@ -1,0 +1,3 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonHolyHandGrenade,items,Gun,,,The Holy Hand Grenade of Antioch
+khelldonHolyHandGrenadeDesc,items,Gun,,,"Bless this, O Lord, that with it thou mayst blow thine enemies to tiny bits, in thy mercy."

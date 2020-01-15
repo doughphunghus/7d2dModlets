@@ -15,18 +15,7 @@
 <!-- ######################################################### -->
 <!-- ######################################################### -->
 
-
-<!--
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-khelldonHolyHandGrenade,items,Gun,EnChanged,The Holy Hand Grenade of Antioch,,,,,
-khelldonHolyHandGrenadeDesc,items,Gun,KgNone,"Bless this, O Lord, that with it thou mayst blow thine enemies to tiny bits, in thy mercy.",,,,,
--->
-
-
-
-
-<append xpath="/items">	
+<append xpath="/items">
 
 <item name="khelldonHolyHandGrenade">
 	<property name="Tags" value="weapon,perkExplosiveWeapons"/>
