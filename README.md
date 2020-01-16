@@ -2,9 +2,9 @@
 Khelldons original alpha17 "7 Days to Die" modlets.
 
 #### Status of these modlets in a18.3:
-Khelldon-RebarCrossBowBolts - Crossbow does not show bolts as possible ammo, so bolts are useless.
+Khelldon-RebarCrossBowBolts - Works in a18.
 
-Khelldon-HolyHandGrenade - Works in a18.  Bugs: Does not show damage stats. Have not checked it can be looted.
+Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can be looted. Should work
 
 Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
 
@@ -20,6 +20,8 @@ Mods were originally written for a17, updated them for a18, mostly by:
   - Bumped version to 2.0.0 when mod is no longer compatible with a17
   - Added "-doughphunghus" to version number to indicate the modlet comes from this fork
 - Migrating existing icons
+- Adding display values for item statistics
+- Updating xpath when needed
 
 #### Notes:
 - 2020-01-14: Theres a lot of mods here so testing them in a18 has not been completed yet.
