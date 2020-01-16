@@ -8,7 +8,7 @@ Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can
 
 Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
 
-Khelldon-ScreamerBears - Works in a18. Modifies so one of the 4 bears available is a screamer, TODO: Have not tested this.
+Khelldon-ScreamerBears - Works in a18. Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested this.
 
 Khelldon-BabyBears - Works in a18.
 
@@ -17,6 +17,29 @@ Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). T
 Khelldon-StarterCrate - BROKEN for a18.  Causes game load to hang
 
 !! The rest have not been tested yet !!!!
+Khelldon-aGulliversTravels - Not tested for a18
+
+Khelldon-BadCompanyUMAZeds - Not tested for a18
+
+Khelldon-BiggerBuckAndDoe - Not tested for a18
+
+Khelldon-BiggerChickenAndBunny - Not tested for a18
+
+Khelldon-ComplexCobble - Not tested for a18
+
+Khelldon-CustomMenu - Not tested for a18
+
+Khelldon-GetFramed - Not tested for a18
+
+Khelldon-GetGreener - Not tested for a18
+
+Khelldon-GetNailed - Not tested for a18
+
+Khelldon-GetPiggy - Not tested for a18
+
+Khelldon-GetTheHerp - Not tested for a18
+
+zzz-Khelldon-GetBenched - Not tested for a18
 
 #### Doughphunghus's fork - General updates:
 Mods were originally written for a17, updated them for a18, mostly by:
