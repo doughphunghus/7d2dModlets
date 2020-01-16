@@ -56,7 +56,10 @@
 	<property name="Group" value="Ammo/Weapons"/>
 	<effect_group tiered="false">
 		<triggered_effect name="onProjectileImpact" action="AddBuff" target="positionAOE" range="4" buff="buffBurningMolotov"/>
-		<display_value name="ExRadius" value="30" />
+    <display_value name="dExDamageBlock" value="10000"/>
+    <display_value name="dExDamageEntity" value="8000"/>
+    <display_value name="dExRadius" value="35"/>
+    <display_value name="dFuseTime" value="20000"/>
 	</effect_group>
 </item>
 

@@ -50,6 +50,10 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="35"/>
 		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
+
+    <display_value name="dExDamageBlock" value="6"/>
+    <display_value name="dExDamageEntity" value="68"/>
+
 	</effect_group>
 </item>
 
@@ -82,6 +86,9 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="35"/>
 		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
 		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow"/>
+
+    <display_value name="dExDamageBlock" value="6"/>
+    <display_value name="dExDamageEntity" value="75"/>
 	</effect_group>
 </item>
 
@@ -89,11 +96,10 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 
 <!--
 Khelldon - Now let's make sure the crossbow knows this can be used as ammo
-note: This will cause conflicts with any other mod that changes the crossbow ammo
 -->
 
-<set xpath="/items/item[@name='gunCrossbow']/property[@class='Action0']/property[@name='Magazine_items']/@value">ammoCrossbowBoltStone,ammoCrossbowBoltIron, ammoCrossbowBoltSteelAP, ammoCrossbowBoltExploding, khelldonRebarBolt, khelldonRebarBoltHot</set>
-
+<append xpath="/items/item[@name='gunCrossbowIron']/property[@class='Action0']/property[@name='Magazine_items']/@value">,khelldonRebarBolt,khelldonRebarBoltHot</append>
+<append xpath="/items/item[@name='gunCrossbowCompound']/property[@class='Action0']/property[@name='Magazine_items']/@value">,khelldonRebarBolt,khelldonRebarBoltHot</append>
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->

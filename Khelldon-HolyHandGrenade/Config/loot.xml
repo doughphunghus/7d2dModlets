@@ -15,11 +15,9 @@
 <!-- ######################################################### -->
 <!-- ######################################################### -->
 
-<append xpath="/lootcontainers/lootgroup[@name='questAmmo' or @name='questRanged']">
+<append xpath="/lootcontainers/lootgroup[@name='groupQuestAmmo' or @name='groupQuestRanged']">
 	<item name="khelldonHolyHandGrenade" count="1" prob="0.5"/>
 </append>
-
-
 
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
