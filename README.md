@@ -8,7 +8,11 @@ Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can
 
 Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
 
-Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). Have not checked they can be looted.
+Khelldon-ScreamerBears - Works in a18. Modifies so one of the 4 bears available is a screamer, TODO: Have not tested this.
+
+Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). TODO: Have not checked they can be looted.
+
+Khelldon-StarterCrate - BROKEN for a18.  Causes game load to hang
 
 !! The rest have not been tested yet !!!!
 
