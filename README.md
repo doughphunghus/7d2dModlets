@@ -6,6 +6,10 @@ Khelldon-aGulliversTravels - Works in a18 with cpath issues applying for some fo
 
 Khelldon-BadCompanyUMAZeds - Works in a18.
 
+Khelldon-BiggerBuckAndDoe - Works in a18.
+
+Khelldon-BiggerChickenAndBunny - Works in a18.
+
 Khelldon-RebarCrossBowBolts - Works in a18.
 
 Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can be looted. Should work
@@ -21,10 +25,6 @@ Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). T
 Khelldon-StarterCrate - BROKEN for a18.  Causes game load to hang
 
 #### !! The rest have not been tested yet !!!!
-
-Khelldon-BiggerBuckAndDoe - Not tested for a18
-
-Khelldon-BiggerChickenAndBunny - Not tested for a18
 
 Khelldon-ComplexCobble - Not tested for a18
 
