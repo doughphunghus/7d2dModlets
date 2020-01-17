@@ -2,6 +2,8 @@
 Khelldons original alpha17 "7 Days to Die" modlets.
 
 #### Status of these modlets in a18.3:
+Khelldon-aGulliversTravels - Works in a18 with cpath issues applying for some for feral hit damage
+
 Khelldon-RebarCrossBowBolts - Works in a18.
 
 Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can be looted. Should work
@@ -17,7 +19,6 @@ Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). T
 Khelldon-StarterCrate - BROKEN for a18.  Causes game load to hang
 
 #### !! The rest have not been tested yet !!!!
-Khelldon-aGulliversTravels - Not tested for a18
 
 Khelldon-BadCompanyUMAZeds - Not tested for a18
 
