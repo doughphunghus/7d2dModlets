@@ -18,7 +18,7 @@ Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can
 
 Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
 
-Khelldon-ScreamerBears - Works in a18. Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested this.
+Khelldon-ScreamerBears - Works in a18. Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s)
 
 Khelldon-BabyBears - Works in a18.
 
