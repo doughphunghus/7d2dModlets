@@ -10,6 +10,8 @@ Khelldon-BiggerBuckAndDoe - Works in a18.
 
 Khelldon-BiggerChickenAndBunny - Works in a18.
 
+Khelldon-GetTheHerp - Works in a18.
+
 Khelldon-RebarCrossBowBolts - Works in a18.
 
 Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can be looted. Should work
@@ -37,8 +39,6 @@ Khelldon-GetGreener - Not tested for a18
 Khelldon-GetNailed - Not tested for a18
 
 Khelldon-GetPiggy - Not tested for a18
-
-Khelldon-GetTheHerp - Not tested for a18
 
 zzz-Khelldon-GetBenched - Not tested for a18
 
