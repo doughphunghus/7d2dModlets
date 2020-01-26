@@ -3,48 +3,31 @@ Khelldons original alpha17 "7 Days to Die" modlets.
 Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
 See also: https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy
 
-#### Status of these modlets in a18.3:
-Khelldon-aGulliversTravels - Works in a18 with cpath issues applying for some for feral hit damage
+#### Status of these modlets:
 
-Khelldon-BadCompanyUMAZeds - Works in a18.
+Modlet | Woks in version  | Note
+------------ | ------------- | -------------
+Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage
+Khelldon-BadCompanyUMAZeds| a18.2 | From another modder so there may be a newer version. Lightly tested
+Khelldon-BiggerBuckAndDoe| a18.2 | Tested
+Khelldon-BiggerChickenAndBunny| a18.2 | Tested
+Khelldon-GetTheHerp| a18.2 | Tested
+Khelldon-RebarCrossBowBolts| a18.2 | Tested
+Khelldon-BabyBears | a18.2 | Tested
+Khelldon-HolyHandGrenade| a18.2 | Tested. Have not checked it actually can be looted. Should work
+Khelldon-GetHorny| a18.2 | TestedTested on all vanilla vehicles.
+Khelldon-ScreamerBears| a18.2 | Tested Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s)
+Khelldon-AwwNuts | a18.2 | Nuts work for repairing some things (not all items tested). TODO: Have not checked they can be looted.
+Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang
+Khelldon-ComplexCobble| UNKNOWN for a18.2| NOT TESTED YET
+Khelldon-CustomMenu| UNKNOWN for a18.2| NOT TESTED YET
+Khelldon-GetFramed| UNKNOWN for a18.2| NOT TESTED YET
+Khelldon-GetGreener| UNKNOWN for a18.2| NOT TESTED YET
+Khelldon-GetNailed| UNKNOWN for a18.2| NOT TESTED YET
+Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET
+zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET
 
-Khelldon-BiggerBuckAndDoe - Works in a18.
-
-Khelldon-BiggerChickenAndBunny - Works in a18.
-
-Khelldon-GetTheHerp - Works in a18.
-
-Khelldon-RebarCrossBowBolts - Works in a18.
-
-Khelldon-HolyHandGrenade - Works in a18.  TODO: Have not checked it actually can be looted. Should work
-
-Khelldon-GetHorny - Works in a18. Tested on all vanilla vehicles.
-
-Khelldon-ScreamerBears - Works in a18. Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s)
-
-Khelldon-BabyBears - Works in a18.
-
-Khelldon-AwwNuts - Nuts work for repairing some things (not all items tested). TODO: Have not checked they can be looted.
-
-Khelldon-StarterCrate - BROKEN for a18.  Causes game load to hang
-
-#### !! The rest have not been tested yet !!!!
-
-Khelldon-ComplexCobble - Not tested for a18
-
-Khelldon-CustomMenu - Not tested for a18
-
-Khelldon-GetFramed - Not tested for a18
-
-Khelldon-GetGreener - Not tested for a18
-
-Khelldon-GetNailed - Not tested for a18
-
-Khelldon-GetPiggy - Not tested for a18
-
-zzz-Khelldon-GetBenched - Not tested for a18
-
-#### Doughphunghus's fork - General updates:
+#### Doughphunghus's fork - General updates notes:
 Mods were originally written for a17, updated them for a18, mostly by:
 - Adding/migrating Localization.txt
 - Adding/modifying Readme.md to indicate a18 support
