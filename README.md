@@ -1,5 +1,7 @@
 ### 7d2dModlets
 Khelldons original alpha17 "7 Days to Die" modlets.
+Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
+See also: https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy
 
 #### Status of these modlets in a18.3:
 Khelldon-aGulliversTravels - Works in a18 with cpath issues applying for some for feral hit damage
