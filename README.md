@@ -1,12 +1,15 @@
+**For game**: [7 Days to Die](https://7daystodie.com)
+
 ### 7d2dModlets
 Khelldons original alpha17 "7 Days to Die" modlets.
 Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
-See also: https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy
+
+**Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy)
 
 #### Status of these modlets:
 
 Modlet | Woks in version  | Note
------------- | ------------- | -------------
+| :------------ | :------------- | :------------- |
 Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage
 Khelldon-BadCompanyUMAZeds| a18.2 | From another modder so there may be a newer version. Lightly tested
 Khelldon-BiggerBuckAndDoe| a18.2 | Tested
