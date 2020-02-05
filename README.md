@@ -22,7 +22,7 @@ Khelldon-BabyBears | a18.2 | Tested
 Khelldon-HolyHandGrenade| a18.2 | Tested. Have not checked it actually can be looted. Should work
 Khelldon-GetHorny| a18.2 | TestedTested on all vanilla vehicles.
 Khelldon-ScreamerBears| a18.2 | Tested Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s)
-Khelldon-AwwNuts | a18.2 | Nuts work for repairing some things (not all items tested). TODO: Have not checked they can be looted.
+Khelldon-AwwNuts | a18.2 | Nuts work for repairing some things (not all items tested).
 Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang
 Khelldon-ComplexCobble| UNKNOWN for a18.2| NOT TESTED YET
 Khelldon-CustomMenu| UNKNOWN for a18.2| NOT TESTED YET
