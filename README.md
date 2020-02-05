@@ -4,6 +4,8 @@
 Khelldons original alpha17 "7 Days to Die" modlets.
 Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
 
+**To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
+
 **Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy)
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://7daystodie.com/forums/showthread.php?144915-Doughs-modlets)
