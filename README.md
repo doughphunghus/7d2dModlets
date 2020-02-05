@@ -6,6 +6,8 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy)
 
+**Discussions (and additional info, links, etc)**: [My modlets main page](https://7daystodie.com/forums/showthread.php?144915-Doughs-modlets)
+
 #### Status of these modlets:
 
 Modlet | Woks in version  | Note
