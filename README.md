@@ -28,7 +28,7 @@ Modlet | Woks in version  | Note
 | Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
 | Khelldon-ComplexCobble| a18.2 | Tested |
 | Khelldon-CustomMenu | a18.2 | Tested |
-| Khelldon-GetFramed| UNKNOWN for a18.2| NOT TESTED YET |
+| Khelldon-GetFramed| BROKEN in a18.2 | Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
 | Khelldon-GetGreener| UNKNOWN for a18.2| NOT TESTED YET |
 | Khelldon-GetNailed| UNKNOWN for a18.2| NOT TESTED YET |
 | Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET |
