@@ -29,7 +29,7 @@ Modlet | Woks in version  | Note
 | Khelldon-ComplexCobble| a18.2 | Tested |
 | Khelldon-CustomMenu | a18.2 | Tested |
 | Khelldon-GetFramed| BROKEN in a18.2 | Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
-| Khelldon-GetGreener| UNKNOWN for a18.2| NOT TESTED YET |
+| Khelldon-GetGreener| BROKEN in a18.2 | Not sure hot to handle converting this |
 | Khelldon-GetNailed| UNKNOWN for a18.2| NOT TESTED YET |
 | Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET |
