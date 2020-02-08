@@ -24,14 +24,14 @@ Modlet | Woks in version  | Note
 | Khelldon-GetNailed | a18.2 | Tested |
 | Khelldon-ComplexCobble| a18.2 | Tested |
 | Khelldon-CustomMenu | a18.2 | Tested |
-| Khelldon-HolyHandGrenade| a18.2 | Tested. Have not checked it actually can be looted. Should work |
+| Khelldon-GetPiggy | a18.2 | Tested. TODO: Have not verified it actually apawns on its own. Should work |
+| Khelldon-HolyHandGrenade| a18.2 | Tested. TODO: Have not verified it actually can be looted. Should work |
 | Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. |
-| Khelldon-ScreamerBears| a18.2 | Tested Modifies game so one of the 4 bears available is a screamer. TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
-| Khelldon-AwwNuts | a18.2 | Nuts do work for repairing some things (not all items tested). |
+| Khelldon-ScreamerBears| a18.2 | Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
+| Khelldon-AwwNuts | a18.2 | Tested. Nuts do work for repairing some things (not all items tested). |
 | Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
-| Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET |
 
 #### Doughphunghus's fork - General updates notes:
