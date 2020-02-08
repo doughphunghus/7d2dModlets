@@ -30,7 +30,7 @@ Modlet | Woks in version  | Note
 | Khelldon-AwwNuts | a18.2 | Nuts do work for repairing some things (not all items tested). |
 | Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
-| Khelldon-GetGreener| BROKEN in a18.2 | Not sure hot to handle converting this |
+| Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
 | Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET |
 
