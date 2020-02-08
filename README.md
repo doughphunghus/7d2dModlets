@@ -29,7 +29,7 @@ Modlet | Woks in version  | Note
 | Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. |
 | Khelldon-ScreamerBears| a18.2 | Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
 | Khelldon-AwwNuts | a18.2 | Tested. Nuts do work for repairing some things (not all items tested). |
-| Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
+| Khelldon-StarterCrate| *a18.2 | HELP NEEDED: Create does not contain the necessary items (just a few). Don't know how to fix |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
