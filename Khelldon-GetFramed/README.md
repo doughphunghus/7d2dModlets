@@ -3,5 +3,6 @@ This changes wood frames so they don't have glue and need to be stacked and nail
 
 Doughphunghus's fork - updates:
 
-- Mod originally written for a17, likely works with a18
+- Mod originally written for a17
 - Needs Localization
+- Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on
