@@ -32,7 +32,7 @@ Modlet | Woks in version  | Note
 | Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
-| zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this coudl be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things"|
+| zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
 
 #### Doughphunghus's fork - General updates notes:
 Mods were originally written for a17, updated them for a18, mostly by:
