@@ -11,14 +11,6 @@
 
 <!--
 Khelldon - Let's define our crate and the box it turns into when you break it open
-
-This needs Localization, please add the following few lines to /Data/Configs/Localization.txt
-
-khelldonStarterCrate,blocks,Container,New,Starting Gear: Break This Open,,,,,
-khelldonStarterCrateDesc,blocks,Container,New,"Your Starting gear. Place on the ground and break to open.",,,,,
-khelldonStarterCrateOpen,blocks,Container,New,Starting Gear: Open This,,,,,
-
-
 -->
 
 <append xpath="/blocks">
@@ -29,7 +21,7 @@ khelldonStarterCrateOpen,blocks,Container,New,Starting Gear: Open This,,,,,
 	<property name="MaxDamage" value="15"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Path" value="solid"/>
-	<property name="Model" value="Entities/LootContainers/crate_storePrefab" />
+	<property name="Model" value="#Entities/LootContainers?crate_storePrefab.prefab"/>
 	<property name="DisplayInfo" value="Name"/>
 	<property name="Material" value="Mwood_regular"/>
 	<drop event="Destroy" count="0"/>
