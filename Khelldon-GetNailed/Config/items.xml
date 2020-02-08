@@ -7,12 +7,9 @@
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
-
-
 <!--
 Khelldon - Lets add the bent Nail code
 We'll extend from the standard nail
-
 -->
 <append xpath="/items">
 
@@ -24,17 +21,9 @@ We'll extend from the standard nail
 
 </append>
 
-
-
 <!--
 Khelldon - Lets add the Box of Nails code
 We'll extend from the standard nail
-
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-khelldonBoxNails,items,Item,KgNone,Box of Nails,,,,,
-khelldonBoxNailsDesc,items,Item,KgNone,"A regular box nails. Open it up (with recipe) to get some nails.",,,,,
-
 -->
 <append xpath="/items">
 
@@ -46,9 +35,6 @@ khelldonBoxNailsDesc,items,Item,KgNone,"A regular box nails. Open it up (with re
 
 </append>
 
-
-
-
 <!--
 Khelldon - hammer tweaks
 This will only work with the vanilla unaltered hammer
@@ -57,22 +43,14 @@ Idea by Stompy
 -->
 
 <!-- Set new tool harvest category -->
-<append xpath="/items/item[@name='meleeToolClawHammer']/effect_group[@name='Base Effects']">
+<append xpath="/items/item[@name='meleeToolClawHammer']/effect_group[@name='meleeToolClawHammer']">
 	<passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
 </append>
-
-
 
 <!--
 Khelldon - Add Crowbar to the world
 Crowbar free asset from Valve Source SDK and coverted to Unity for use with 7 days to Die by Khelldon
 Please credit Valve with this model.
-
-This needs Localization, please add the following two lines to /Data/Configs/Localization.txt
-
-khelldonCrowbar,items,Tool,KgNone,Crowbar,,,,,
-khelldonCrowbarDesc,items,Tool,KgNone,"Great for disassembling mechanical devices. Can take nails out of wooden blocks without damaging them. Can also be used to repair and upgrade walls.\nRepair with Forged Steel.",,,,,
-
 -->
 <append xpath="/items">
 

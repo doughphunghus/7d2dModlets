@@ -9,30 +9,10 @@
 
 
 <!-- Khelldon - Let's change the recipes to include the nails, Thank you guppy for the idea -->
-
-<remove xpath="/quests/quest[@id='quest_BasicSurvival7']" />
-<insertafter xpath="/quests/quest[@id='quest_BasicSurvival6']" >
-    <!-- Basic Survival 7 - Start a Base /> -->
-    <quest id="quest_BasicSurvival7">
-        <property name="group_name_key" value="quest_BasicSurvival" />
-        <property name="name_key" value="quest_BasicSurvival7" />
-        <property name="subtitle_key" value="quest_BasicSurvival7_subtitle" />
-        <property name="description_key" value="quest_BasicSurvival7_description" />
-        <property name="icon" value="ui_game_symbol_map_house" />
-        <property name="category_key" value="quest" />
-        <property name="difficulty" value="veryeasy" />
-        <property name="shareable" value="false" />
-        <objective type="FetchKeep" id="resourceWood" value="18" phase="1" />
-        <objective type="FetchKeep" id="resourceNail" value="12" phase="1" />
-        <objective type="Craft" id="woodFrameBlock" value="3" phase="2" />
-        <objective type="BlockPlace" id="woodFrameBlock" value="3" phase="2" />
-        <reward type="Exp" value="100" />
-        <reward type="Quest" id="quest_BasicSurvival8" />
-    </quest>
-</insertafter>
-
-
-
+<!-- DOUGH: Ripped out the removal of quest_BasicSurvival7 adn re-adding it. Just adding this to existing one -->
+<append xpath="/quests/quest[@id='quest_BasicSurvival7']">
+  <objective type="FetchKeep" id="resourceNail" value="12" phase="1" />
+</append>
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
