@@ -14,25 +14,25 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 Modlet | Woks in version  | Note
 | :------------ | :------------- | :------------- |
-Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage
-Khelldon-BadCompanyUMAZeds| a18.2 | From another modder so there may be a newer version. Lightly tested
-Khelldon-BiggerBuckAndDoe| a18.2 | Tested
-Khelldon-BiggerChickenAndBunny| a18.2 | Tested
-Khelldon-GetTheHerp| a18.2 | Tested
-Khelldon-RebarCrossBowBolts| a18.2 | Tested
-Khelldon-BabyBears | a18.2 | Tested
-Khelldon-HolyHandGrenade| a18.2 | Tested. Have not checked it actually can be looted. Should work
-Khelldon-GetHorny| a18.2 | TestedTested on all vanilla vehicles.
-Khelldon-ScreamerBears| a18.2 | Tested Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s)
-Khelldon-AwwNuts | a18.2 | Nuts work for repairing some things (not all items tested).
-Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang
-Khelldon-ComplexCobble| a18.2 | Tested
-Khelldon-CustomMenu| UNKNOWN for a18.2| NOT TESTED YET
-Khelldon-GetFramed| UNKNOWN for a18.2| NOT TESTED YET
-Khelldon-GetGreener| UNKNOWN for a18.2| NOT TESTED YET
-Khelldon-GetNailed| UNKNOWN for a18.2| NOT TESTED YET
-Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET
-zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET
+| Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage |
+| Khelldon-BadCompanyUMAZeds| a18.2 | From another modder so there may be a newer version. Lightly tested |
+| Khelldon-BiggerBuckAndDoe| a18.2 | Tested |
+| Khelldon-BiggerChickenAndBunny| a18.2 | Tested |
+| Khelldon-GetTheHerp| a18.2 | Tested |
+| Khelldon-RebarCrossBowBolts| a18.2 | Tested |
+| Khelldon-BabyBears | a18.2 | Tested |
+| Khelldon-HolyHandGrenade| a18.2 | Tested. Have not checked it actually can be looted. Should work |
+| Khelldon-GetHorny| a18.2 | TestedTested on all vanilla vehicles. |
+| Khelldon-ScreamerBears| a18.2 | Tested Modifies game so one of the 4 bears available is a screamer, TODO: Have not tested they act as screamers.  Code swaps out regular screamer for the bear(s) |
+| Khelldon-AwwNuts | a18.2 | Nuts work for repairing some things (not all items tested). |
+| Khelldon-StarterCrate| BROKEN in a18.2 | Causes game load to hang |
+| Khelldon-ComplexCobble| a18.2 | Tested |
+| Khelldon-CustomMenu | a18.2 | Tested |
+| Khelldon-GetFramed| UNKNOWN for a18.2| NOT TESTED YET |
+| Khelldon-GetGreener| UNKNOWN for a18.2| NOT TESTED YET |
+| Khelldon-GetNailed| UNKNOWN for a18.2| NOT TESTED YET |
+| Khelldon-GetPiggy| UNKNOWN for a18.2| NOT TESTED YET |
+| zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET |
 
 #### Doughphunghus's fork - General updates notes:
 Mods were originally written for a17, updated them for a18, mostly by:
