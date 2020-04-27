@@ -26,7 +26,7 @@ Modlet | Woks in version  | Note
 | Khelldon-CustomMenu | a18.2 | Tested |
 | Khelldon-GetPiggy | a18.2 | Tested. TODO: Have not verified it actually apawns on its own. Should work |
 | Khelldon-HolyHandGrenade| a18.2 | Tested. TODO: Have not verified it actually can be looted. Should work |
-| Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. |
+| Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. (https://youtu.be/-wHA5mmyGn8 "Youtube video example")|
 | Khelldon-ScreamerBears| a18.2 | Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
 | Khelldon-AwwNuts | a18.2 | Tested. Nuts do work for repairing some things (not all items tested). |
 | Khelldon-StarterCrate| *a18.2 | HELP NEEDED: Create does not contain the necessary items (just a few). Don't know how to fix |
