@@ -6,9 +6,9 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
 
-**Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://7daystodie.com/forums/showthread.php?59817-TFP-Official-Modding-Forum-Policy)
+**Modding Terms of Agreement**: [TFP Official Modding Forum Policy ](https://community.7daystodie.com/topic/4189-tfp-official-modding-forum-policy/)
 
-**Discussions (and additional info, links, etc)**: [My modlets main page](https://7daystodie.com/forums/showthread.php?144915-Doughs-modlets)
+**Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
 #### Status of these modlets:
 
