@@ -15,7 +15,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 Modlet | Woks in version  | Note
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage |
-| Khelldon-BadCompanyUMAZeds| a18.2 | From another modder so there may be a newer version. Lightly tested |
+| Khelldon-BadCompanyUMAZeds| a18.2 | From other modder(s)? so there may be a newer version. Lightly tested. older verions of this mod can be found here [Bad Company Github repo](https://github.com/7days2mod) |
 | Khelldon-BiggerBuckAndDoe| a18.2 | Tested |
 | Khelldon-BiggerChickenAndBunny| a18.2 | Tested |
 | Khelldon-GetTheHerp| a18.2 | Tested |
