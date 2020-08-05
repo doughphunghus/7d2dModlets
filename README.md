@@ -12,7 +12,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 #### Status of these modlets:
 
-Modlet | Woks in version  | Note
+Modlet | Mod version | Game version  | Note
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a19 | WIP. Multiple isues need work |
 | Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage |
