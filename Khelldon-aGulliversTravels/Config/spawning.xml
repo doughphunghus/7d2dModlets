@@ -7,28 +7,23 @@
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
-
-
-
 <!-- Khelldon - Up the Zombie spawning -->
-		
-<!-- Day Zombies -->
-<set xpath="/spawning/biome[@name='city']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='city_wasteland']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='wasteland_hub']/spawn[@entitygroup='ZombiesWasteland']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']/@maxcount">22</set>
+<!-- Dough - Cleanup to keep up. Basically all zeds spawn, day and night with 22 maxcount-->
 
-<!-- Night Zombies -->
-<set xpath="/spawning/biome[@name='city']/spawn[@entitygroup='ZombiesNight']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='city_wasteland']/spawn[@entitygroup='ZombiesWastelandNight']/@maxcount">22</set>
-<set xpath="/spawning/biome[@name='wasteland_hub']/spawn[@entitygroup='ZombiesWastelandNight']/@maxcount">22</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
+<set xpath="/spawning/biome[@name='pine_forest']/spawn[@entitygroup='ZombiesNight']/@maxcount">22</set>
+
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesBurntForest']/@maxcount">22</set>
+<set xpath="/spawning/biome[@name='burnt_forest']/spawn[@entitygroup='ZombiesNight']/@maxcount">22</set>
+
+<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
+<set xpath="/spawning/biome[@name='desert']/spawn[@entitygroup='ZombiesNight']/@maxcount">22</set>
+
+<set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesAll']/@maxcount">22</set>
 <set xpath="/spawning/biome[@name='wasteland']/spawn[@entitygroup='ZombiesWastelandNight']/@maxcount">22</set>
 
-
+<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='SnowZombies']/@maxcount">22</set>
+<set xpath="/spawning/biome[@name='snow']/spawn[@entitygroup='ZombiesNight']/@maxcount">22</set>
 
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->

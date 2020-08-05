@@ -16,15 +16,10 @@
 <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='HasRagdoll']/@value" >false</set>
 
 
-
 <!-- Khelldon - Lessen the jump distance and health. -->
 <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/property[@name='JumpMaxDistance']/@value" >1.0</set>
 <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombie')]/effect_group/passive_effect[@name='HealthMax' and @operation='base_set']/@value" >15</set>
 
-
-
-
-  
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
