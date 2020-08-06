@@ -30,7 +30,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-CustomMenu | a19 b177 | UNKNOWN/WIP |
 | Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
 | Khelldon-HolyHandGrenade | a19 b177 | UNKNOWN/WIP |
-| Khelldon-GetHorny | a19 b177 | UNKNOWN/WIP |
+| Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
 | Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | UNKNOWN/WIP |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
