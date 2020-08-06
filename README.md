@@ -12,10 +12,16 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 #### Status of these modlets:
 
-Modlet | Game version  | Note
+**Latest a19 release: TBD**
+| Modlet | Game version  | Note |
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a19 | WIP. Multiple isues need work |
-| Khelldon-aGulliversTravels | a18.2 | Some cpath issues applying for some for feral hit damage |
+
+
+**Last a18 release: v1.0.8-doughphunghus**
+
+| Modlet | Game version  | Note |
+| :------------ | :------------- | :------------- |
 | Khelldon-BadCompanyUMAZeds| a19 | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BadCompanyUMAZeds| a18.2 | From other modder(s)? so there may be a newer version. Lightly tested. older verions of this mod can be found here [Bad Company Github repo](https://github.com/7days2mod) |
 | Khelldon-BiggerBuckAndDoe| a18.2 and a19 b177 | WORKS - Tested |
@@ -36,7 +42,12 @@ Modlet | Game version  | Note
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
 
-#### Doughphunghus's fork - General updates notes:
+**Last a17 release: See Original Khelldons modlets this repo is forked from **
+
+#### Doughphunghus's fork - a19 General updates notes:
+- Modifying XML as needed
+
+#### Doughphunghus's fork - a18 General updates notes:
 Mods were originally written for a17, updated them for a18, mostly by:
 - Adding/migrating Localization.txt
 - Adding/modifying Readme.md to indicate a18 support
@@ -48,6 +59,5 @@ Mods were originally written for a17, updated them for a18, mostly by:
 - Updating xpath when needed
 
 #### Notes:
-- 2020-01-14: Theres a lot of mods here so testing them in a18 has not been completed yet.
 - Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
 - Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
