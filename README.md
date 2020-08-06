@@ -31,7 +31,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
 | Khelldon-HolyHandGrenade | a19 b177 | UNKNOWN/WIP |
 | Khelldon-GetHorny | a19 b177 | UNKNOWN/WIP |
-| Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work |
+| Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | UNKNOWN/WIP |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
 | Khelldon-GetFramed | a19 b177 | BROKEN/WIP - see a18 Notes below |
@@ -67,7 +67,7 @@ Mods were originally written for a17, updated them for a18, mostly by:
 | Khelldon-GetPiggy | a18.2 | WORKS - Tested TODO: Have not verified it actually spawns on its own. Should work |
 | Khelldon-HolyHandGrenade| a18.2 | WORKS - Tested. TODO: Have not verified it actually can be looted. Should work |
 | Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
-| Khelldon-ScreamerBears| a18.2 | WORKS - Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work |
+| Khelldon-ScreamerBears| a18.2 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a18.2 | WORKS - Tested. Nuts do work for repairing some things (not all items tested). |
 | Khelldon-StarterCrate| *a18.2 | HELP NEEDED: Create does not contain the necessary items (just a few). Don't know how to fix |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
