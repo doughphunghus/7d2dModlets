@@ -10,7 +10,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-# a19 --> Download latest supported release: !WIP/TBD! - just download/clone the current master branch
+# a19 --> Download latest supported release: !WIP/TBD! - just download/clone the [current master branch](https://github.com/doughphunghus/7d2dModlets/archive/master.zip)
 #### Doughphunghus's fork - a19 General updates notes:
 - Modifying XML as needed
 - Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
