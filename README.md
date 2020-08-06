@@ -10,7 +10,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-# a19 --> Download latest supported release:WIP/TBD
+# a19 --> Download latest supported release: !WIP/TBD! - just download/clone the current master branch
 #### Doughphunghus's fork - a19 General updates notes:
 - Modifying XML as needed
 - Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
@@ -29,7 +29,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-ComplexCobble| a19 b177 | UNKNOWN/WIP |
 | Khelldon-CustomMenu | a19 b177 | UNKNOWN/WIP |
 | Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
-| Khelldon-HolyHandGrenade | a19 b177 | UNKNOWN/WIP |
+| Khelldon-HolyHandGrenade | a19 b177 | WORKS - Tested |
 | Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
 | Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | UNKNOWN/WIP |
