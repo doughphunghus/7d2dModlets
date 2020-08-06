@@ -23,7 +23,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 | Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
 | Khelldon-GetTheHerp| a19 b177 | BROKEN/WIP. Multiple isues need work |
-| Khelldon-RebarCrossBowBolts| a19 b177 | UNKNOWN/WIP |
+| Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
 | Khelldon-BabyBears | a19 b177 | UNKNOWN/WIP |
 | Khelldon-GetNailed | a19 b177 | UNKNOWN/WIP |
 | Khelldon-ComplexCobble| a19 b177 | UNKNOWN/WIP |
