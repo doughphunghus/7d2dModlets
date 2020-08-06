@@ -1,7 +1,7 @@
 **For game**: [7 Days to Die](https://7daystodie.com)
 
 ### 7d2dModlets
-Khelldons original alpha17 "7 Days to Die" modlets.
+Forked from Khelldons original alpha17 "7 Days to Die" modlets to work with later game versions.
 Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
 
 **To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
@@ -10,14 +10,11 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-# Status of these modlets:
-#### Notes:
-- Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
-- Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
-
 # a19 --> Download latest supported release:WIP/TBD
 #### Doughphunghus's fork - a19 General updates notes:
 - Modifying XML as needed
+- Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
+- Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
@@ -36,6 +33,8 @@ Mods were originally written for a17, updated them for a18, mostly by:
 - Migrating existing icons
 - Adding display values for item statistics
 - Updating xpath when needed
+- Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
+- Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
