@@ -21,7 +21,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-aGulliversTravels | a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
-| Khelldon-BiggerChickenAndBunny| a19 b177 | Should work - Not tested |
+| Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
 | Khelldon-GetTheHerp| a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-RebarCrossBowBolts| a19 b177 | UNKNOWN/WIP |
 | Khelldon-BabyBears | a19 b177 | UNKNOWN/WIP |
