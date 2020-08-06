@@ -18,7 +18,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| Khelldon-aGulliversTravels | a19 | WIP. Multiple isues need work |
+| Khelldon-aGulliversTravels | a19 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 
