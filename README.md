@@ -39,24 +39,25 @@ Mods were originally written for a17, updated them for a18, mostly by:
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
+| Khelldon-aGulliversTravels | a18.2 | WORKS - Tested |
 | Khelldon-BadCompanyUMAZeds| a18.2 | From other modder(s)? so there may be a newer version. Lightly tested. older verions of this mod can be found here [Bad Company Github repo](https://github.com/7days2mod) |
 | Khelldon-BiggerBuckAndDoe| a18.2 | WORKS - Tested |
-| Khelldon-BiggerChickenAndBunny| a18.2 | Tested |
-| Khelldon-GetTheHerp| a18.2 | Tested |
-| Khelldon-RebarCrossBowBolts| a18.2 | Tested |
-| Khelldon-BabyBears | a18.2 | Tested |
-| Khelldon-GetNailed | a18.2 | Tested |
-| Khelldon-ComplexCobble| a18.2 | Tested |
-| Khelldon-CustomMenu | a18.2 | Tested |
-| Khelldon-GetPiggy | a18.2 | Tested. TODO: Have not verified it actually apawns on its own. Should work |
-| Khelldon-HolyHandGrenade| a18.2 | Tested. TODO: Have not verified it actually can be looted. Should work |
+| Khelldon-BiggerChickenAndBunny| a18.2 | WORKS - Tested |
+| Khelldon-GetTheHerp| a18.2 | WORKS - Tested|
+| Khelldon-RebarCrossBowBolts| a18.2 | WORKS - Tested |
+| Khelldon-BabyBears | a18.2 | WORKS - Tested |
+| Khelldon-GetNailed | a18.2 | WORKS - Tested |
+| Khelldon-ComplexCobble| a18.2 | WORKS - Tested |
+| Khelldon-CustomMenu | a18.2 | WORKS - Tested |
+| Khelldon-GetPiggy | a18.2 | WORKS - Tested TODO: Have not verified it actually spawns on its own. Should work |
+| Khelldon-HolyHandGrenade| a18.2 | WORKS - Tested. TODO: Have not verified it actually can be looted. Should work |
 | Khelldon-GetHorny| a18.2 | Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
-| Khelldon-ScreamerBears| a18.2 | Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
-| Khelldon-AwwNuts | a18.2 | Tested. Nuts do work for repairing some things (not all items tested). |
+| Khelldon-ScreamerBears| a18.2 | WORKS - Tested. Modifies game so one of the 4 bears available is a screamer. TODO: Have not verified they act as screamers.  Code swaps out regular screamer for the bear(s). Should work|
+| Khelldon-AwwNuts | a18.2 | WORKS - Tested. Nuts do work for repairing some things (not all items tested). |
 | Khelldon-StarterCrate| *a18.2 | HELP NEEDED: Create does not contain the necessary items (just a few). Don't know how to fix |
 | Khelldon-GetFramed| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle non-existing block "woodWeakNoUpgradeMaster" everything is built on |
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
-| zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
+| zzz-Khelldon-GetBenched | UNKNOWN for a18.2 | NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
 
 # Last a17 release: See Original Khelldons modlets this repo is forked from
 
