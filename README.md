@@ -11,15 +11,32 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
 # Status of these modlets:
+#### Notes:
+- Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
+- Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
 
-# Latest a19 --> Download release: WIP/TBD
+# a19 --> Download latest supported release:WIP/TBD
+#### Doughphunghus's fork - a19 General updates notes:
+- Modifying XML as needed
+
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a19 | WIP. Multiple isues need work |
 | Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 
-# Last a18  -->  Download release: [v1.0.8-doughphunghus](http://github.com)
+# a18  --> Download LAST supported release: [v1.0.8-doughphunghus](https://github.com/doughphunghus/7d2dModlets/archive/v1.0.8-doughphunghus.zip)
+#### Doughphunghus's fork - a18 General updates notes:
+Mods were originally written for a17, updated them for a18, mostly by:
+- Adding/migrating Localization.txt
+- Adding/modifying Readme.md to indicate a18 support
+- Modifying ModInfo.xml to change version number to  differentiate it from originals.
+  - Bumped version to 2.0.0 when mod is no longer compatible with a17
+  - Added "-doughphunghus" to version number to indicate the modlet comes from this fork
+- Migrating existing icons
+- Adding display values for item statistics
+- Updating xpath when needed
+
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
 | Khelldon-BadCompanyUMAZeds| a18.2 | From other modder(s)? so there may be a newer version. Lightly tested. older verions of this mod can be found here [Bad Company Github repo](https://github.com/7days2mod) |
@@ -41,22 +58,5 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetGreener| BROKEN in a18.2 | HELP NEEDED: Not sure hot to handle converting this |
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2| NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
 
-**Last a17 release: See Original Khelldons modlets this repo is forked from **
+# Last a17 release: See Original Khelldons modlets this repo is forked from
 
-#### Doughphunghus's fork - a19 General updates notes:
-- Modifying XML as needed
-
-#### Doughphunghus's fork - a18 General updates notes:
-Mods were originally written for a17, updated them for a18, mostly by:
-- Adding/migrating Localization.txt
-- Adding/modifying Readme.md to indicate a18 support
-- Modifying ModInfo.xml to change version number to  differentiate it from originals.
-  - Bumped version to 2.0.0 when mod is no longer compatible with a17
-  - Added "-doughphunghus" to version number to indicate the modlet comes from this fork
-- Migrating existing icons
-- Adding display values for item statistics
-- Updating xpath when needed
-
-#### Notes:
-- Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
-- Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
