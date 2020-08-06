@@ -10,21 +10,20 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-#### Status of these modlets:
+# Status of these modlets:
 
-**Latest a19 release: TBD**
-| Modlet | Game version  | Note |
+# Latest a19 --> Download release: WIP/TBD
+| Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a19 | WIP. Multiple isues need work |
+| Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
+| Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 
-
-**Last a18 release: v1.0.8-doughphunghus**
-
-| Modlet | Game version  | Note |
+# Last a18  -->  Download release: [v1.0.8-doughphunghus](http://github.com)
+| Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| Khelldon-BadCompanyUMAZeds| a19 | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BadCompanyUMAZeds| a18.2 | From other modder(s)? so there may be a newer version. Lightly tested. older verions of this mod can be found here [Bad Company Github repo](https://github.com/7days2mod) |
-| Khelldon-BiggerBuckAndDoe| a18.2 and a19 b177 | WORKS - Tested |
+| Khelldon-BiggerBuckAndDoe| a18.2 | WORKS - Tested |
 | Khelldon-BiggerChickenAndBunny| a18.2 | Tested |
 | Khelldon-GetTheHerp| a18.2 | Tested |
 | Khelldon-RebarCrossBowBolts| a18.2 | Tested |
