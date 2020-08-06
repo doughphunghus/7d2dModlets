@@ -18,9 +18,10 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| Khelldon-aGulliversTravels | a19 | BROKEN/WIP. Multiple isues need work |
+| Khelldon-aGulliversTravels | a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
+| Khelldon-BiggerChickenAndBunny| a19 b177 | Should work - Not tested |
 
 # a18  --> Download LAST supported release: [v1.0.8-doughphunghus](https://github.com/doughphunghus/7d2dModlets/archive/v1.0.8-doughphunghus.zip)
 #### Doughphunghus's fork - a18 General updates notes:
