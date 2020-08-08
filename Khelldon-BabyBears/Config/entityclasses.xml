@@ -9,40 +9,75 @@
 
 
 <!-- Khelldon - Add in Baby Bears -->
-<append xpath="/entity_classes">
+<!-- DOUGH:
+  Completely deleted original "extends" XML as animal wouldnt spawn and it may
+  have changed a lot of the tags, etc. Tried to keep as many transferrable atributes as possible
 
-<entity_class name="khelldonAnimalBabyBear" extends="animalBear">
-	<property name="Tags" value="animal,hostile"/>
-	<property name="IsEnemyEntity" value="false"/>
-	<property name="ExperienceGain" value="300"/> 
-	<property name="DeadBodyHitPoints" value="150"/>
-	<property name="HandItem" value="meleeHandAnimalWolf"/>
-	<property name="HasRagdoll" value="false"/>
-	<property name="SizeScale" value="0.25"/>
-	<property name="AITask-1" value="Swim"/>
-	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="DestroyArea"/>
-	<property name="AITask-4" value="Territorial"/>
-	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag,40,EntityZombie,30"/>
-	<property name="AITask-6" value="ApproachSpot"/>
-	<property name="AITask-7" value="Look"/>
-	<property name="AITask-8" value="Wander"/>
-	<property name="AITask-9" value=""/>
-	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
-	<property name="AITarget-2" value="BlockingTargetTask"/>
-	<property name="AITarget-3" value="SetNearestEntityAsTarget" param1="EntityPlayer,8,EntityAnimalStag,0,EntityZombie,0"/>
-	<property name="AITarget-4" value=""/>
-	<effect_group name="Base Effects">
-		<passive_effect name="HealthMax" operation="base_set" value="100"/>
-		<passive_effect name="HealthMax" operation="perc_set" value="1"/>
-	</effect_group>	
-	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
-	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20"/>
-	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="2"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
-</entity_class>
+-->
+<append xpath="/entity_classes">
+  <entity_class name="khelldonAnimalBabyBear" extends="animalTemplateHostile">
+  	<property name="Tags" value="entity,animal,hostile,bear,perkAT03"/>
+  	<property name="MapIcon" value="ui_game_symbol_tracking_bear"/>
+  	<property name="TrackerIcon" value="ui_game_symbol_tracking_bear"/>
+  	<property name="AvatarController" value="AvatarAnimalController"/>
+  	<property name="ModelType" value="Standard"/>
+  	<property name="HasRagdoll" value="true"/>
+  	<property name="HasDeathAnim" value="true"/>
+  	<property name="RootMotion" value="true"/>
+  	<property name="RagdollOnDeathChance" value=".5"/>
+  	<property name="PhysicsBody" value="bear"/>
+  	<property name="Mass" value="600"/>
+  	<property name="Mesh" value="Animals/Bear/animalBearStandardRagdoll"/>
+
+  	<property name="AITask-1" value="BreakBlock"/>
+  	<property name="AITask-2" value="DestroyArea"/>
+  	<property name="AITask-3" value="Territorial"/>
+  	<property name="AITask-4" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,40,EntityPlayer,25,EntityZombie,30"/>
+  	<property name="AITask-5" value="ApproachSpot"/>
+  	<property name="AITask-6" value="Look"/>
+  	<property name="AITask-7" value="Wander"/>
+  	<property name="AITask-8" value=""/>
+  	<property name="AITarget-1" value="SetAsTargetIfHurt"/>
+  	<property name="AITarget-2" value="BlockingTargetTask"/>
+  	<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,13,8,EntityAnimalStag,0,0,EntityZombie,0,0"/>
+  	<property name="AITarget-4" value=""/>
+
+  	<property name="SoundHurt" value="Animals/Bear/bearpain"/>
+  	<property name="SoundDeath" value="Animals/Bear/beardeath"/>
+  	<property name="SoundRandom" value="Animals/Bear/bearroam"/>
+  	<property name="SoundSense" value="Animals/Bear/bearsense"/>
+  	<property name="SoundAlert" value="Animals/Bear/bearalert"/>
+  	<property name="SoundAttack" value="Animals/Bear/bearattack"/>
+  	<property name="SoundFootstepModifier" value="Animals/Bear/bear_footstep"/>
+  	<property name="SoundGiveUp" value="Animals/Bear/beargiveup"/>
+
+  	<!-- Gameplay -->
+  	<property name="PainResistPerHit" value="1"/>
+  	<property name="ExperienceGain" value="300"/> <!-- DOUGH: Original Khelldon setting -->
+  	<property name="DeadBodyHitPoints" value="150"/> <!-- DOUGH: Original Khelldon setting -->
+    <property name="SizeScale" value="0.25"/> <!-- DOUGH: Original Khelldon setting -->
+    <property name="HandItem" value="meleeHandAnimalWolf"/> <!-- DOUGH: Original Khelldon setting -->
+
+  	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
+  	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="50"/> <!-- animalBear -->
+  	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
+  	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="5"/>
+  	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="25"/>
+  	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5"/>
+    <!-- DOUGH: Baby bears have no testosterone :) ALso makes it more like original mod -->
+  	<!-- <drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="2"/> -->
+  	<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  	<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  	<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+
+  	<effect_group name="Base Effects">
+  		<passive_effect name="HealthMax" operation="base_set" value="100"/> <!-- DOUGH: Original Khelldon setting -->
+  		<passive_effect name="HealthMax" operation="perc_add" value="0"/> <!-- Animal HP scale -->
+  	</effect_group>
+
+  	<property name="NavObject" value="animaltracking_bear,clear_sleeper" />
+  </entity_class>
 
 </append>
 
