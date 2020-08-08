@@ -18,7 +18,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
-| Khelldon-aGulliversTravels | a19 b177 | BROKEN/WIP. Multiple isues need work |
+| Khelldon-aGulliversTravels | a19 b177 | BROKEN - NEED HELP! Dont know best way to get meleeHandsX to easily work as meleeHands of Zombies inherit from multiple meleeHands classes. Dont want to hand code each one by hand, nor break existing clas inheritance. |
 | Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 | Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
