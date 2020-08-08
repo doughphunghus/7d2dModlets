@@ -25,7 +25,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetTheHerp| a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
 | Khelldon-BabyBears | a19 b177 | UNKNOWN/WIP SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
-| Khelldon-GetNailed | a19 b177 | UNKNOWN/WIP |
+| Khelldon-GetNailed | a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-ComplexCobble| a19 b177 | UNKNOWN/WIP |
 | Khelldon-CustomMenu | a19 b177 | UNKNOWN/WIP |
 | Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
