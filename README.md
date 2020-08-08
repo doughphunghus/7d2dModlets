@@ -10,7 +10,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 **Discussions (and additional info, links, etc)**: [My modlets main page](https://community.7daystodie.com/topic/17197-doughs-modlets)
 
-# a19 --> Download latest supported release:WIP/TBD
+# a19 --> Download latest supported release: !WIP/TBD! - just download/clone the [current master branch](https://github.com/doughphunghus/7d2dModlets/archive/master.zip)
 #### Doughphunghus's fork - a19 General updates notes:
 - Modifying XML as needed
 - Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
@@ -24,15 +24,15 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
 | Khelldon-GetTheHerp| a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
-| Khelldon-BabyBears | a19 b177 | UNKNOWN/WIP |
-| Khelldon-GetNailed | a19 b177 | UNKNOWN/WIP |
-| Khelldon-ComplexCobble| a19 b177 | UNKNOWN/WIP |
-| Khelldon-CustomMenu | a19 b177 | UNKNOWN/WIP |
-| Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
-| Khelldon-HolyHandGrenade | a19 b177 | UNKNOWN/WIP |
+| Khelldon-BabyBears | a19 b177 | WORKS - Tested. SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
+| Khelldon-GetNailed | a19 b177 | BROKEN/WIP. Multiple isues need work |
+| Khelldon-ComplexCobble| a19 b177 | WORKS - Tested |
+| Khelldon-CustomMenu | a19 b177 | WORKS - (should work) - Not Tested |
+| Khelldon-GetPiggy | a19 b177 | WORKS - Tested. Issue: Can only harvest pig at the head. Tracking does not work. Starting to show modlet age. May decommission for a20 unless people say they want it. Likely want to use Farm Mod instead? |
+| Khelldon-HolyHandGrenade | a19 b177 | WORKS - Tested |
 | Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
 | Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
-| Khelldon-AwwNuts | a19 b177 | UNKNOWN/WIP |
+| Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
 | Khelldon-GetFramed | a19 b177 | BROKEN/WIP - see a18 Notes below |
 | Khelldon-GetGreener | a19 b177 | BROKEN/WIP - see a18 Notes below |
@@ -60,7 +60,7 @@ Mods were originally written for a17, updated them for a18, mostly by:
 | Khelldon-BiggerChickenAndBunny| a18.2 | WORKS - Tested |
 | Khelldon-GetTheHerp| a18.2 | WORKS - Tested|
 | Khelldon-RebarCrossBowBolts| a18.2 | WORKS - Tested |
-| Khelldon-BabyBears | a18.2 | WORKS - Tested |
+| Khelldon-BabyBears | a18.2 | WORKS - Tested SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
 | Khelldon-GetNailed | a18.2 | WORKS - Tested |
 | Khelldon-ComplexCobble| a18.2 | WORKS - Tested |
 | Khelldon-CustomMenu | a18.2 | WORKS - Tested |
