@@ -1,0 +1,4 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+khelldonBuffHerpesDesc,buffs,Buff,,x,"You got the herp. No one will sleep with you anymore. There is no cure. Sad, sad, sad.",,,,,,,,,,,,,,
+khelldonBuffHerpesName,buffs,Buff,,x,"The Herp",,,,,,,,,,,,,,
+khelldonBuffHerpesTooltip,buffs,Buff,,x,"Oh no! You got the Herp!",,,,,,,,,,,,,,

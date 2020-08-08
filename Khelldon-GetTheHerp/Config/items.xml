@@ -9,10 +9,9 @@
 
 
 <!-- Add the call to the herpes buff, we'll remove infection too -->
-<set xpath="/items/item[@name='meleeHandZombieStripper']/property[@class='Action0']/property[@name='Buff']/@value">khelldonBuffHerpes,buffInjuryBleeding,buffInjuryStunned1</set>
-<append xpath="/items/item[starts-with(@name, 'meleeHandZombieStripper')]/effect_group[@name='Base Effects']">
-		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="khelldonBuffHerpes"/>
-</append>
+<!-- DOUGH: Complete rework. Lowered herpes chance to .5 from 1 becaue not sure if 1 is ok to use for a weight -->
+<append xpath="/items/item[starts-with(@name, 'meleeHandZombieStripper')]/effect_group[starts-with(@name, 'meleeHandZombieStripper')]/triggered_effect[@trigger='onSelfAttackedOther' and @action='AddBuff']/@buff">,khelldonBuffHerpes</append>
+<append xpath="/items/item[starts-with(@name, 'meleeHandZombieStripper')]/effect_group[starts-with(@name, 'meleeHandZombieStripper')]/triggered_effect[@trigger='onSelfAttackedOther' and @action='AddBuff']/@weights">,.40</append>
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
