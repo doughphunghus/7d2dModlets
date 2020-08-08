@@ -14,7 +14,6 @@
 
 <!-- a19 broke -->
 <set xpath="/items/item[starts-with(@name, 'meleeHandZombie') and not(contains(@name, 'Feral'))]/property[@class='Action0']/property[@name='Range']/@value">0.25</set>
-
 <set xpath="/items/item[starts-with(@name, 'meleeHandZombie') and not(contains(@name, 'Feral'))]/property[@class='Action0']/property[@name='Block_range']/@value">0.5</set>
 <set xpath="/items/item[starts-with(@name, 'meleeHandZombie') and not(contains(@name, 'Feral'))]/effect_group/passive_effect[@name='EntityDamage' and @operation='base_set']/@value">1</set>
 

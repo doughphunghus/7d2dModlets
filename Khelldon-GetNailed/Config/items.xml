@@ -43,7 +43,7 @@ Idea by Stompy
 -->
 
 <!-- Set new tool harvest category -->
-<append xpath="/items/item[@name='meleeToolClawHammer']/effect_group[@name='meleeToolClawHammer']">
+<append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/effect_group[@name='meleeToolRepairT1ClawHammer']">
 	<passive_effect name="HarvestCount" operation="base_set" value="1" tags="nailsHarvest"/>
 </append>
 
@@ -55,7 +55,7 @@ Please credit Valve with this model.
 <append xpath="/items">
 
 <item name="khelldonCrowbar">
-	<property name="Extends" value="meleeToolWrench"/>
+	<property name="Extends" value="meleeToolSalvageT1Wrench"/>
 	<property name="CustomIcon" value="khelldonCrowbarIcon"/>
 	<property name="DescriptionKey" value="khelldonCrowbarDesc"/>
 	<property name="Tags" value="blunt,melee,light,tool,perkStayDown,perkSalvageOperations"/>

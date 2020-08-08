@@ -9,7 +9,7 @@
 
 <!-- Herpes buff has no effects negative or positive, just an incurable disease that won't go away until you die --><!-- ui_game_symbol_death -->
 <append xpath="/buffs">
-  <buff name="khelldonBuffHerpes" name_key="khelldonBuffHerpesName" description_key="khelldonBuffHerpesDesc" tooltip_key="khelldonBuffHerpesTooltip" showonhud="true" icon="ui_game_symbol_explosion" icon_color="255,64,255" remove_on_death="true">
+  <buff name="khelldonBuffHerpes" name_key="khelldonBuffHerpesName" description_key="khelldonBuffHerpesDesc" tooltip_key="khelldonBuffHerpesTooltip" showonhud="true" icon="ui_game_symbol_death" icon_color="255,64,255" remove_on_death="true">
   		<stack_type value="ignore"/>
   		<duration value="0"/> <!-- 0 = infinite duration -->
   </buff>
