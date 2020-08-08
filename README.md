@@ -28,7 +28,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetNailed | a19 b177 | BROKEN/WIP. Multiple isues need work |
 | Khelldon-ComplexCobble| a19 b177 | UNKNOWN/WIP |
 | Khelldon-CustomMenu | a19 b177 | UNKNOWN/WIP |
-| Khelldon-GetPiggy | a19 b177 | UNKNOWN/WIP |
+| Khelldon-GetPiggy | a19 b177 | WORKS - Tested. Issue: Can only harvest pig at the head |
 | Khelldon-HolyHandGrenade | a19 b177 | WORKS - Tested |
 | Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
 | Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
