@@ -34,7 +34,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
-| Khelldon-GetFramed | a19 b177 | BROKEN/WIP - see a18 Notes below |
+| Khelldon-GetFramed | a19 b177 | BROKEN - NEED HELP! |
 | Khelldon-GetGreener | a19 b177 | WORKS - Tested |
 | zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - see a18 Notes below |
 
