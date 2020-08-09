@@ -12,7 +12,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 
 # a19 --> Download latest supported release: Just download/clone the [current master branch](https://github.com/doughphunghus/7d2dModlets/archive/master.zip)
 #### Doughphunghus's fork - a19 General updates notes:
-- Modifying XML as needed
+- See Readme for each modlet for more documentation.
 - Not all mods had Localization info or may have missing icons.  Please submit an issue if you find one.
 - Mods that modify the "UI" were not converted so they may not work. Please submit an issue if you find one.
 
