@@ -1,7 +1,7 @@
 **Description:**
 # Custom Menu Art
-This modlet lets users easily change menu artwork
+This modlet lets users easily change the game start menu artwork.
 
-Doughphunghus's fork - updates:
+Details:
 - To change the background, you simply replace the .png files in UIAtlases/ItemIconAtlas
-  with those of the same size.
+  with those of the same size with those you want to use.
