@@ -10,3 +10,5 @@ this will ahve to be incremented every time a new version comes out AND likely
 to conflict with anyone adding mods that add other loot containers.
 Not sure (probably likely) coudl choose a random lootcontainer ID BUT its all
 an issue using ID's anyway
+
+STATUS: Seeing if can borrow XML from https://github.com/wolfbain5/7dtd-a19, via forum question
