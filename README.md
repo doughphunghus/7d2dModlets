@@ -25,7 +25,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetTheHerp| a19 b177 | BROKEN - NEED HELP! Updated but cannot figure out why the buff is not working/applying |
 | Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
 | Khelldon-BabyBears | a19 b177 | WORKS - Tested. SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
-| Khelldon-GetNailed | a19 b177 | BROKEN/WIP. Multiple isues need work |
+| Khelldon-GetNailed | a19 b177 | WORKS - Tested. SEE ALSO: [Guppycur's Get Nailed Quest Chain Edit](https://community.7daystodie.com/topic/9144-guppycurs-modlets)|
 | Khelldon-ComplexCobble| a19 b177 | WORKS - Tested |
 | Khelldon-CustomMenu | a19 b177 | WORKS - (should work) - Not Tested |
 | Khelldon-GetPiggy | a19 b177 | WORKS - Tested. Issue: Can only harvest pig at the head. Tracking does not work. Starting to show modlet age. May decommission for a20 unless people say they want it. Likely want to use Farm Mod instead? |
@@ -35,7 +35,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
 | Khelldon-GetFramed | a19 b177 | BROKEN/WIP - see a18 Notes below |
-| Khelldon-GetGreener | a19 b177 | BROKEN/WIP - see a18 Notes below |
+| Khelldon-GetGreener | a19 b177 | WORKS - Tested |
 | zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - see a18 Notes below |
 
 # a18  --> Download LAST supported release: [v1.0.8-doughphunghus](https://github.com/doughphunghus/7d2dModlets/archive/v1.0.8-doughphunghus.zip)
