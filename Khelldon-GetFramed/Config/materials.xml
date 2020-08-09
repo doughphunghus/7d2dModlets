@@ -7,28 +7,23 @@
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
-
-
 <!-- Khelldon - Let's create a new material and give it the same properties as wood blocks, but with the glue of hay -->
-
+<!-- DOUGH: Copy from material: Mwood_weak from block: woodWeakNoUpgradeMaster-->
 <append xpath="/materials">
 
-<material id="khelldonFramesNoGlue">
-	<property name="damage_category" value="wood" />
-	<property name="surface_category" value="wood" />
-	<property name="forge_category" value="wood" />
-	<property name="Hardness" type="float" value="1" />
-	<property name="stepsound" value="wood" />
-	<property name="stability_glue" value="0" />
-	<property name="Mass" type="int" value="5" />
-	<property name="MaxDamage" value="100" />
-	<property name="Experience" value="0"/>
+  <material id="khelldonFramesNoGlue">
+    <property name="damage_category" value="wood"/>
+  	<property name="surface_category" value="wood"/>
+  	<property name="forge_category" value="wood"/>
+  	<property name="Hardness" type="float" value="1"/>
+  	<property name="stepsound" value="wood"/>
+  	<property name="stability_glue" value="5"/>
+  	<property name="Mass" type="int" value="5"/>
+  	<property name="MaxDamage" value="100"/>
+  	<property name="Experience" value="2"/>
 </material>
 
 </append>
-
-
-
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
