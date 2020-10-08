@@ -53,6 +53,41 @@ woodFrameWedge
 woodFrameRamp
 woodFramePlateOffset
 
+In vanilla game: a19
+woodNoUpgradeMaster <- no upgrade, a starter block
+woodWeakNoUpgradeMaster <- no upgrade, a starter block
+  extended by: woodFrameMaster <- wood frame?
+    picks up to: woodFrameBlockVariantHelper
+    upgrades to: woodMaster
+      extended by: woodNoUpgradeMaster
+      upgrades to: rWoodMaster <- reinforced wood block
+
+
+
+woodWeakNoUpgradeMaster = default wooden frames material
+  adds: khelldonFramesNoGlue = sticks 1 block out
+  extended by: khelldonWoodWeakNoUpgradeMaster
+    adds: Mwood_weak
+    extended by: khelldonWoodFrameMaster
+      upgrades to: woodMaster
+      picks up to: woodFrameBlockVariantHelper
+      extended by: woodFrameBlockVariantHelper <- TO DO FIX!
+        var: PlaceAltBlockValue = khelldon wood frame blocks <- TO DO FIX!
+
+      extended by: khelldonWoodFrameWedgeIncline
+      upgrades to: woodFrameWedgeIncline
+      extended by: khelldonWoodFrameWedgeStairs
+      upgrades to: woodFrameWedgeStairs
+      etc...
+
+woodFrameMaster
+  adds: resourceNail to upgrade it
+  upgrades to: khelldonWoodFrameMaster
+woodFrameWedgeIncline
+  upgrades to: khelldonWoodFrameWedgeIncline
+etc...
+
+
 -->
 
 <!--

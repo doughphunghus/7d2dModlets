@@ -27,12 +27,19 @@
 	<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+
+  <!-- DOUGH: Added WasteTreasuresCompleteHarvest as it seems like this woudl be what to add ;)-->
+  <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceAnimalFat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  
 	<effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="200"/>
 	</effect_group>
 </entity_class>
+
 <!-- Screamer Bear Horde -->
 <entity_class name="khelldonScreamerBearBaby" extends="khelldonScreamerBear">
 	<property name="Tags" value="animal,hostile"/>
@@ -43,8 +50,14 @@
   <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/>
   <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
   <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-  <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-  <drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+  <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+  <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+
+  <!-- DOUGH: Added WasteTreasuresCompleteHarvest as it seems like this woudl be what to add ;)-->
+  <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceAnimalFat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
 	<property name="HandItem" value="meleeHandAnimalWolf"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="SizeScale" value="0.25"/>
@@ -52,6 +65,7 @@
 		<passive_effect name="HealthMax" operation="base_set" value="90"/>
 	</effect_group>
 </entity_class>
+
 <entity_class name="khelldonScreamerBearTeen" extends="khelldonScreamerBear">
 	<property name="Tags" value="animal,hostile"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -61,8 +75,14 @@
   <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/>
   <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
   <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-  <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-  <drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+  <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+  <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+
+  <!-- DOUGH: Added WasteTreasuresCompleteHarvest as it seems like this woudl be what to add ;)-->
+  <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceAnimalFat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
 	<property name="HandItem" value="meleeHandAnimalWolf"/>
 	<property name="HasRagdoll" value="false"/>
 	<property name="SizeScale" value="0.50"/>
@@ -70,6 +90,7 @@
 		<passive_effect name="HealthMax" operation="base_set" value="250"/>
 	</effect_group>
 </entity_class>
+
 <entity_class name="khelldonScreamerBearHuge" extends="khelldonScreamerBear">
 	<property name="Tags" value="animal,hostile"/>
 	<property name="IsEnemyEntity" value="false"/>
@@ -81,8 +102,8 @@
   <drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="7"/>
   <drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="15"/>
   <drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="7"/>
-  <drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="5"/>
-  <drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+  <drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="5"/>
+  <drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
 	<property name="HandItem" value="meleeHandAnimalZombieBear"/>
     <effect_group name="Base Effects">
 		<passive_effect name="HealthMax" operation="base_set" value="2000"/>

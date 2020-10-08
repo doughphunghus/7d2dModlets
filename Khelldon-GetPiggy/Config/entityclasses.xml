@@ -15,28 +15,57 @@
 <!-- ######################################################### -->
 
 <append xpath="/entity_classes">
-<!-- piggy -->
+<!-- piggy
+DOUGH: Try to use the Stag settings for updates/changes
+-->
 <entity_class name="animalPig" extends="animalTemplateTimid">
-	<property name="Tags" value="animal"/>
+	<property name="Tags" value="entity,animal,perkAT02,perkAT03"/>
+	<property name="ModelType" value="Standard"/>
 	<property name="Mesh" value="Animals/Pig/PIG"/>
 	<property name="Prefab" value="NPC"/>
 	<property name="Class" value="EntityAnimalStag"/>
 	<property name="Parent" value="Animals"/>
-	<property name="SoundHurt" value="Animals/pigpain"/>
-	<property name="SoundDeath" value="Animals/pigdeath"/>
-	<property name="MoveSpeedPanic" value="1.2"/>
-	<property name="PhysicsBody" value="pig"/>
-	<property name="ExperienceGain" value="173"/>
-	<property name="SwimOffset" value="0.7"/>
+	<property name="RotateToGround" value="true"/>
 	<property name="Faction" value="animals"/>
-	<property name="HasRagdoll" value="true"/>
+  <property name="PhysicsBody" value="pig"/>
+  <property name="Mass" value="100"/>
+  <property name="Weight" value="35"/>
+  <property name="SurfaceCategory" value="organic"/>
+	<property name="ParticleOnDeath" value="blood_death"/>
+  <!--
+    DOUGH: Pig sounds no longer work in a19.2 b3?
+  	<property name="SoundHurt" value="Animals/pigpain"/>
+  	<property name="SoundDeath" value="Animals/pigdeath"/>
+  -->
+  <property name="SightRange" value="37"/>
+  <property name="HasRagdoll" value="true"/>
+  <property name="PainResistPerHit" value=".75"/>
+  <property name="MaxTurnSpeed" value="220"/>
+  <property name="MoveSpeedPanic" value="1.2"/>
+	<property name="ExperienceGain" value="173"/>
+  <property name="TimeStayAfterDeath" value="300"/>
+	<property name="SwimOffset" value="0.7"/>
+
 	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/>
 	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="5"/>
 	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="7"/>
 	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="6"/>
-	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
-	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+	<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="1"/>
+
+  <!-- DOUGH: Added WasteTreasuresCompleteHarvest as it seems like this woudl be what to add ;)-->
+
+  <drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceAnimalFat" count="1" tag="WasteTreasuresCompleteHarvest"/>
+  <drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest"/>
+
+  <effect_group name="Base Effects">
+		<passive_effect name="HealthMax" operation="base_set" value="80"/>
+		<passive_effect name="HealthMax" operation="perc_add" value="0"/>
+	</effect_group>
+
 </entity_class>
+
 </append>
 
 

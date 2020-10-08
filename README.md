@@ -2,7 +2,7 @@
 
 ### 7d2dModlets
 Forked from Khelldons original alpha17 "7 Days to Die" modlets to work with later game versions.
-Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can. 
+Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can.
 
 **To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
 
@@ -28,13 +28,13 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetNailed | a19 b177 | WORKS - Tested. SEE ALSO: [Guppycur's Get Nailed Quest Chain Edit](https://community.7daystodie.com/topic/9144-guppycurs-modlets)|
 | Khelldon-ComplexCobble| a19 b177 | WORKS - Tested |
 | Khelldon-CustomMenu | a19 b177 | WORKS - (should work) - Not Tested |
-| Khelldon-GetPiggy | a19 b177 | WORKS - Tested. Issue: Can only harvest pig at the head. Tracking does not work. Starting to show modlet age. May decommission for a20 unless people say they want it. Likely want to use Farm Mod instead? |
+| Khelldon-GetPiggy | a19.2 b3 | WORKS - Tested. Issue: Pig sounds are stag sounds (pig sounds no longer work) Tracking may not work. Starting to show modlet age. May decommission for a20 unless people say they want it. Likely want to use Farm Mod instead? |
 | Khelldon-HolyHandGrenade | a19 b177 | WORKS - Tested |
 | Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
-| Khelldon-ScreamerBears | a19 b177 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
+| Khelldon-ScreamerBears | a19.2 b3 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
 | Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
-| Khelldon-GetFramed | a19 b177 | WORKS - Tested.  Modified from Original.  Can now build 1 frame horizontally out without nails instead of only upward. |
+| Khelldon-GetFramed | a19.2 b3 | WORKS - Tested.  Modified from Original.  Can now build 1 frame horizontally out without nails instead of only upward. |
 | Khelldon-GetGreener | a19 b177 | WORKS - Tested |
 | zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - see a18 Notes below |
 
@@ -75,4 +75,3 @@ Mods were originally written for a17, updated them for a18, mostly by:
 | zzz-Khelldon-GetBenched | UNKNOWN for a18.2 | NOT TESTED YET. HELP NEEDED: Seems this could be broken into 2 modlets. 1 for picking up workbench (or any workstation) and another for the "makes workbench required for many things" since I believe other modlets allready exist for picking up workstations?|
 
 # Last a17 release: See Original Khelldons modlets this repo is forked from
-
