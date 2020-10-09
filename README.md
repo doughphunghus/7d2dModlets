@@ -2,7 +2,7 @@
 
 ### 7d2dModlets
 Forked from Khelldons original alpha17 "7 Days to Die" modlets to work with later game versions.
-Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date as much as I reasonably can.
+Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/update these as needed, per https://7daystodie.com personal communications. I plan on trying to keep these up to date and close to original purpose/functionality as much as I reasonably can.
 
 **To install game mods**: [7 Days to Die modlet installation](https://gist.github.com/doughphunghus/a1907c5f63b5fe79bd823965328f25bf)
 
@@ -19,12 +19,12 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Modlet | Tested on game version  | Note |
 | :------------ | :------------- | :------------- |
 | Khelldon-aGulliversTravels | a19 b177 | BROKEN - NEED HELP! Dont know best way to get meleeHandsX to easily work as meleeHands of Zombies inherit from multiple meleeHands classes. Dont want to hand code each one by hand, nor break existing class inheritance. |
-| Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+ |
+| Khelldon-BadCompanyUMAZeds| X | REMOVED/Decommissioned. Apparently UMA is no longer to be used for a19+. For possible replacement, SEE ALSO: [Snukfin's Server Side Z(S)ombies](https://community.7daystodie.com/topic/17992-snukfins-server-side-zsombies/)||
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 | Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
 | Khelldon-GetTheHerp| a19 b177 | BROKEN - NEED HELP! Updated but cannot figure out why the buff is not working/applying |
 | Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
-| Khelldon-BabyBears | a19 b177 | WORKS - Tested. SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
+| Khelldon-BabyBears | a19 b177 | WORKS - Tested. For possible replacement, SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
 | Khelldon-GetNailed | a19 b177 | WORKS - Tested. SEE ALSO: [Guppycur's Get Nailed Quest Chain Edit](https://community.7daystodie.com/topic/9144-guppycurs-modlets)|
 | Khelldon-ComplexCobble| a19 b177 | WORKS - Tested |
 | Khelldon-CustomMenu | a19 b177 | WORKS - (should work) - Not Tested |
@@ -60,7 +60,7 @@ Mods were originally written for a17, updated them for a18, mostly by:
 | Khelldon-BiggerChickenAndBunny| a18.2 | WORKS - Tested |
 | Khelldon-GetTheHerp| a18.2 | WORKS - Tested|
 | Khelldon-RebarCrossBowBolts| a18.2 | WORKS - Tested |
-| Khelldon-BabyBears | a18.2 | WORKS - Tested SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
+| Khelldon-BabyBears | a18.2 | WORKS - Tested. For possible replacement, SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
 | Khelldon-GetNailed | a18.2 | WORKS - Tested |
 | Khelldon-ComplexCobble| a18.2 | WORKS - Tested |
 | Khelldon-CustomMenu | a18.2 | WORKS - Tested |
