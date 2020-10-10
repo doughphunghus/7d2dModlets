@@ -23,9 +23,9 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-BiggerBuckAndDoe| a19 b177 | WORKS - Tested |
 | Khelldon-BiggerChickenAndBunny| a19 b177 | WORKS - Tested |
 | Khelldon-GetTheHerp| a19 b177 | BROKEN - NEED HELP! Updated but cannot figure out why the buff is not working/applying |
-| Khelldon-RebarCrossBowBolts| a19 b177 | WORKS - Tested. Rebar shots seem to miss/go throgh Zeds at very close range |
+| Khelldon-RebarCrossBowBolts| a19.2 b3 | WORKS - Tested. Rebar shots may miss/go through Zeds at very close range |
 | Khelldon-BabyBears | a19 b177 | WORKS - Tested. For possible replacement, SEE ALSO: [Baby Animals by mlburgoon](https://community.7daystodie.com/topic/17823-modlet-baby-animals)|
-| Khelldon-GetNailed | a19 b177 | WORKS - Tested. SEE ALSO: [Guppycur's Get Nailed Quest Chain Edit](https://community.7daystodie.com/topic/9144-guppycurs-modlets)|
+| Khelldon-GetNailed | a19.2 b3 | WORKS - Tested. SEE ALSO: [Guppycur's Get Nailed Quest Chain Edit](https://community.7daystodie.com/topic/9144-guppycurs-modlets)|
 | Khelldon-ComplexCobble| a19 b177 | WORKS - Tested |
 | Khelldon-CustomMenu | a19 b177 | WORKS - (should work) - Not Tested |
 | Khelldon-GetPiggy | a19.2 b3 | WORKS - Tested. Issue: Pig sounds are stag sounds (pig sounds no longer work) Tracking may not work. Starting to show modlet age. May decommission for a20 unless people say they want it. Likely want to use Farm Mod instead? |

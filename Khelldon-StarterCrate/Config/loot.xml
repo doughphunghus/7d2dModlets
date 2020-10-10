@@ -16,14 +16,14 @@ Khelldon - Let's add the random starter loot and the container info to call to i
 <lootgroup name="khelldonStarterCrateContents" count="all">
 	<item name="armorMiningHelmet" count="1" prob="1"/>
 	<item group="groupWeaponsMeleeScaled" count="1" prob="1"/>
-	<item group="tools" count="3" prob="1"/>
+	<item group="groupToolsT1" count="3" prob="1"/>
 	<item group="groupArmorScaled" count="4" prob="1"/>
 	<item group="airdropMedicine" count="2" prob="1"/>
 	<item group="cannedfood" count="2" prob="1"/>
 </lootgroup>
 <!-- The loot id we need to call to get our loot group.
 This may certainly cause conflicts with other mods. -->
-<lootcontainer id="125" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
+<lootcontainer id="525" count="1" size="8,9" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="qualBaseTemplate" destroy_on_close="true">
 	<item group="khelldonStarterCrateContents"/>
 </lootcontainer>
 
