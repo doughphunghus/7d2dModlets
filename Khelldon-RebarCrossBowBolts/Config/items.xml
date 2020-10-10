@@ -15,23 +15,23 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 
 <append xpath="/items">
 
-<item name="khelldonRebarBolt">
+<item name="khelldonRebarBolt"> <!-- DOUGH: Looks like its from ammoArrowStone -->
 	<property name="CustomIcon" value="khelldonRebarBoltIcon"/>
 	<property name="DescriptionKey" value="khelldonRebarBoltDesc"/>
-	<property name="Tags" value="ranged,perkArchery"/>
+	<property name="Tags" value="ammo,ranged,attAgility,perkArchery,perkPenetrator"/>
 	<property name="DisplayType" value="ammoArrow"/>
 	<property name="Meshfile" value="#@modfolder:Resources/khelldonRebarBolts.unity3d?rebarBoltColdPrefab"/>
 	<property name="HoldType" value="45"/>
-	<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+  <property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
 	<property name="Material" value="Mmetal"/>
-	<property name="IsSticky" value="true"/>
-	<property name="StickyOffset" value="0.05"/>
-	<property name="Stacknumber" value="250"/>
-	<property name="FuelValue" value="25"/>
+	<property name="IsSticky" value="false"/> <!-- DOUGH: If make sticky, cannot pick up, bar floats in air if block destroyed-->
+  <property name="Material" value="Miron"/>
+	<property name="Stacknumber" value="150"/>
+	<property name="FuelValue" value="0"/>
 	<property name="EconomicValue" value="25"/>
 	<property name="EconomicBundleSize" value="5"/>
-	<property name="Group" value="Ammo/Weapons"/>
+	<property name="Group" value="Ammo/Weapons,Basics"/>
 	<property name="CraftingSkillGroup" value="craftSkillWeapons"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
@@ -44,16 +44,13 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 		<property name="GetQualityFromWeapon" value="true"/>
 	</property>
 	<effect_group name="Base Effects" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="68"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="40"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="6"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0.1" tags="wood"/>
 		<passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="35"/>
-		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
-
-    <display_value name="dExDamageBlock" value="6"/>
-    <display_value name="dExDamageEntity" value="68"/>
-
+    <passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
+    
 	</effect_group>
 </item>
 
@@ -62,33 +59,41 @@ Khelldon - Lets add rebar bolts to the game, one cold and one hot
 	<property name="DescriptionKey" value="khelldonRebarBoltHotDesc"/>
 	<property name="Extends" value="khelldonRebarBolt"/>
 	<property name="Meshfile" value="#@modfolder:Resources/khelldonRebarBolts.unity3d?rebarBoltHotPrefab"/>
-	<property name="IsSticky" value="true"/>
-	<property name="StickyOffset" value="0.05"/>
+  <property name="IsSticky" value="false"/> <!-- DOUGH: If make sticky, cannot pick up, bar floats in air if block destroyed-->
 	<property name="HoldType" value="45"/>
-	<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
-	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+  <property name="HandMeshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+  <property name="Damage_type" value="Heat"/>
 	<property class="Action1">
 		<property name="Class" value="Projectile"/>
 		<property name="Explosion.ParticleIndex" value="0"/>
 		<property name="Gravity" value="-12.5"/>
 		<property name="FlyTime" value="0"/>
 		<property name="LifeTime" value="12"/>
-		<property name="Buff" value="buffBurningFlamingArrow"/>
+    <property name="DamageBonus.wood" value="2"/>
+    <property name="Buff" value="buffBurningFlamingArrow"/>
 	</property>
 	<property class="Attributes">
 		<property name="GetQualityFromWeapon" value="true"/>
 	</property>
 	<effect_group name="Base Effects" tiered="false">
-		<passive_effect name="EntityDamage" operation="base_set" value="75"/>
+		<passive_effect name="EntityDamage" operation="base_set" value="55"/>
 		<passive_effect name="BlockDamage" operation="base_set" value="6"/>
 		<passive_effect name="BlockDamage" operation="perc_set" value="0.1" tags="wood"/>
 		<passive_effect name="BlockDamage" operation="perc_set" value="0" tags="earth,metal,cloth"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value=".1" tags="wood"/>
+    <passive_effect name="DamageModifier" operation="perc_set" value="0" tags="earth,metal,cloth"/>
 		<passive_effect name="ProjectileVelocity" operation="base_set" value="35"/>
-		<passive_effect name="ProjectileStickChance" operation="perc_set" value="0" tags="glass"/>
-		<passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow"/>
+    <passive_effect name="ProjectileStickChance" operation="perc_set" value="0"/>
 
-    <display_value name="dExDamageBlock" value="6"/>
-    <display_value name="dExDamageEntity" value="75"/>
+    <triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="14">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="0"/></triggered_effect>
+		<triggered_effect trigger="onProjectileImpact" action="ModifyCVar" target="other" cvar="$buffBurningFlamingArrowDuration" operation="set" value="15">
+			<requirement name="ProgressionLevel" progression_name="perkFiremansAlmanacMolotov" operation="Equals" value="1"/></triggered_effect>
+
+		<triggered_effect trigger="onProjectileImpact" action="AddBuff" target="other" buff="buffBurningFlamingArrow"/>
+
+
 	</effect_group>
 </item>
 
