@@ -487,7 +487,7 @@ Khelldon - Change default wooden frames upgrade to tier 2 "khelldonWood" frames
 <set xpath="/blocks/block[@name='woodFrameGableInvertedQuarter']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFrameGableInvertedQuarter</set>
 <set xpath="/blocks/block[@name='woodFrameGableInvertedHalf']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFrameGableInvertedHalf</set>
 <set xpath="/blocks/block[@name='woodFrameWedge']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFrameWedge</set>
-<set xpath="/blocks/block[@name='WoodFrameStairs50']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFrameStairs50</set>
+<set xpath="/blocks/block[@name='woodFrameStairs50']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFrameStairs50</set>
 <set xpath="/blocks/block[@name='woodFramePlateOffset']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">khelldonWoodFramePlateOffset</set>
 
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
