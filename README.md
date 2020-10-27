@@ -34,7 +34,7 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-ScreamerBears | a19.2 b3 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
 | Khelldon-StarterCrate | a19.2 b3 | WORKS - Tested. Gives several random items from several loot groups (1 MiningHelmet, 1 Weapons, 3 Tools, 4 Armor, 2 Medicine,2 Food ) Thanks to: [wolfbain5](https://github.com/wolfbain5/7dtd-a19/tree/master/wolfbain5%20-%20Starter%20Crate) for working example!|
-| Khelldon-GetFramed | a19.2 b3 | WORKS - Tested.  Modified from Original.  Can now build 1 frame horizontally out without nails instead of only upward. |
+| Khelldon-GetFramed | a19.2 b4 | WORKS - Tested.  Modified from Original.  Can now build 1 frame horizontally out without nails instead of only upward. |
 | Khelldon-GetGreener | a19 b177 | WORKS - Tested |
 | zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - WIll likely decom as others have "pick up workbench" modlets. one being [wolfbain5 workstations](https://github.com/wolfbain5/7dtd-a19/tree/master/wolfbain5%20workstations), and using it for all crafting may be ahrd to maintain |
 
