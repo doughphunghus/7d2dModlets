@@ -33,10 +33,10 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 | Khelldon-GetHorny | a19 b177 | WORKS - Tested. Tested on all vanilla vehicles. [Youtube example](https://youtu.be/-wHA5mmyGn8)|
 | Khelldon-ScreamerBears | a19.2 b3 | WORKS - Tested. Moves screamers in scout group to Zombie group, puts these bears in the scout group the screamers used to be in, so they should spawn when screamers spawned, but not scream |
 | Khelldon-AwwNuts | a19 b177 | WORKS - Tested |
-| Khelldon-StarterCrate | a19 b177 | BROKEN/WIP - see a18 Notes below |
+| Khelldon-StarterCrate | a19.2 b3 | WORKS - Tested. Gives several random items from several loot groups (1 MiningHelmet, 1 Weapons, 3 Tools, 4 Armor, 2 Medicine,2 Food ) Thanks to: [wolfbain5](https://github.com/wolfbain5/7dtd-a19/tree/master/wolfbain5%20-%20Starter%20Crate) for working example!|
 | Khelldon-GetFramed | a19.2 b3 | WORKS - Tested.  Modified from Original.  Can now build 1 frame horizontally out without nails instead of only upward. |
 | Khelldon-GetGreener | a19 b177 | WORKS - Tested |
-| zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - see a18 Notes below |
+| zzz-Khelldon-GetBenched | a19 b177 | BROKEN/WIP - WIll likely decom as others have "pick up workbench" modlets. one being [wolfbain5 workstations](https://github.com/wolfbain5/7dtd-a19/tree/master/wolfbain5%20workstations), and using it for all crafting may be ahrd to maintain |
 
 # a18  --> Download LAST supported release: [v1.0.8-doughphunghus](https://github.com/doughphunghus/7d2dModlets/archive/v1.0.8-doughphunghus.zip)
 #### Doughphunghus's fork - a18 General updates notes:
