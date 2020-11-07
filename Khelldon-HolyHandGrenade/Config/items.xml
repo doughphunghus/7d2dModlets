@@ -31,7 +31,7 @@
 	<property name="Explosion.BlockDamage" value="10000"/>
 	<property name="Explosion.EntityDamage" value="8000"/>
 	<property name="Explosion.ParticleIndex" value="1"/>
-	<property name="Explosion.RadiusBlocks" value="35"/>
+	<property name="Explosion.RadiusBlocks" value="28"/> <!-- DOUGH: Khelldons = 35. Attmept to keep lag down and keep big boom -->
 	<property name="Explosion.RadiusEntities" value="20"/>
 	<property name="Explosion.BlastPower" value="700"/>
 	<property name="Explosion.DamageBonus.stone" value="90"/>

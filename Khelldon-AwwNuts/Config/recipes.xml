@@ -7,74 +7,70 @@
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 <!-- XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX -->
 
-<!-- 
+<!--
 Khelldon - Add nuts and bolts to all the recipes that need them
 "or (contains(@name, 'RecipeNameGoesHere'))" adds ingredient to the recipe
 "and not(contains(@name, 'RecipeNameGoesHere'))" Will not add ingredient to this recipe
 -->
 <!-- Melee Weapons and Tools. Things that need Just 1 Bolt -->
 <append xpath="/recipes/recipe[
-contains(@name, 'meleeToolFireaxeIron')
-or (contains(@name, 'MailBox'))
+contains(@name, 'meleeToolAxeT1IronFireaxe')
 or (contains(@name, 'thrownAmmoPipeBomb'))
-or (contains(@name, 'meleeToolFireaxeSteel'))
-or (contains(@name, 'meleeToolHoeIron'))
-or (contains(@name, 'meleeToolPickaxeIron'))
-or (contains(@name, 'meleeToolPickaxeSteel'))
-or (contains(@name, 'meleeToolShovelIron'))
-or (contains(@name, 'meleeToolShovelSteel'))
-or (contains(@name, 'meleeToolSledgehammer'))
+or (contains(@name, 'meleeToolAxeT2SteelAxe'))
+or (contains(@name, 'meleeToolPickT1IronPickaxe'))
+or (contains(@name, 'meleeToolPickT2SteelPickaxe'))
+or (contains(@name, 'meleeToolShovelT1IronShovel'))
+or (contains(@name, 'meleeToolShovelT2SteelShovel'))
+or (contains(@name, 'meleeWpnSledgeT1IronSledgehammer'))
+or (contains(@name, 'meleeWpnSledgeT3SteelSledgehammer'))
 or (contains(@name, 'meleeToolWireTool'))
 or (contains(@name, 'switch'))
 or (contains(@name, 'electrictimerrelay'))
 ]">
 	<ingredient name="khelldonNutsAndBolts" count="1"/>
 </append>
+
 <!-- Frames and other Blocks Things that need 4 Nuts and bolts -->
 <append xpath="/recipes/recipe[
-starts-with(@name, 'scrapIronFrame')
-or (contains(@name, 'meleeToolAuger'))
+contains(@name, 'meleeToolPickT3Auger')
 or (contains(@name, 'meleeToolChainsaw'))
 or (contains(@name, 'cntBeerCooler'))
 or (contains(@name, 'Safe'))
 or (contains(@name, 'cntGreenDrawerSecure'))
-or (contains(@name, 'Fridge'))
-or (contains(@name, 'garageDoorMetal_v1'))
-or (contains(@name, 'rustyIronTable'))
-or (contains(@name, 'cntLockersShortClosed'))
+or (contains(@name, 'garageDoor'))
 or (contains(@name, 'metalReinforcedWoodDrawBridge'))
-or (contains(@name, 'vehicleBicycleChassis'))
-or (contains(@name, 'vehicle4x4TruckAccessories'))
 or (contains(@name, 'officeChair01'))
-or (contains(@name, 'storeShelving01'))
 or (contains(@name, 'tv'))
 or (contains(@name, 'vaultDoor01'))
 or (contains(@name, 'vaultHatch_v1'))
-or (contains(@name, 'tableSaw'))
 or (contains(@name, 'generatorbank'))
 or (contains(@name, 'batterybank'))
 or (contains(@name, 'ceilingLight01_player'))
+or (contains(@name, 'industrialLight01_player'))
+or (contains(@name, 'industrialLight02_player'))
 or (contains(@name, 'spotlightPlayer'))
 or (contains(@name, 'speaker'))
 or (contains(@name, 'motionsensor'))
-or (contains(@name, 'bladeTrap'))
 or (contains(@name, 'dartTrap'))
 or (contains(@name, 'ironDoor1_v1'))
 or (contains(@name, 'scrapHatch_v1'))
+or (contains(@name, 'metalFurnitureBlockVariantHelper'))
+or (contains(@name, 'ladderMetal'))
+or (contains(@name, 'ladderSteel'))
 ]">
 	<ingredient name="khelldonNutsAndBolts" count="4"/>
 </append>
 
-<!-- 
+<!--
 Khelldon - Add a recipe for the nuts and bolts in the forge
 -->
 
 <append xpath="/recipes">
 
-<recipe name="khelldonNutsAndBolts" count="1" craft_area="forge" craft_tool="toolAnvil" material_based="true">
-	<ingredient name="unit_iron" count="1"/>
-	<ingredient name="unit_clay" count="1"/>
-</recipe>
+  <recipe name="khelldonNutsAndBolts" count="1" craft_area="forge" tags="perkAdvancedEngineering" material_based="true">
+  	<ingredient name="unit_iron" count="1"/>
+  	<ingredient name="unit_clay" count="1"/>
+  </recipe>
 
 </append>
 
