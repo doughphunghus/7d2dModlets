@@ -7,11 +7,11 @@ Note: Should anyone, The Fun Pimps, etc wonder, Khelldon gave permission to use/
 # REPO HAS BEEN MOVED!
 No longer committing code to this fork, instead made new repos for ease of use in the 7D2D Mod Launcher
 
-# Last a19 release: 
+# For 7D2D version a19: 
 [7D2D-Doughs-Khelldons-Mods-a19](https://github.com/doughphunghus/7D2D-Doughs-Khelldons-Mods-a19)
 
-# Last a18 release: 
+# For 7D2D version a18: 
 [7D2D-Doughs-Khelldons-Mods-a18](https://github.com/doughphunghus/7D2D-Doughs-Khelldons-Mods-a18)
 
-# Last a17 release: 
+# For 7D2D version a17: 
 See Original Khelldons modlets this repo is forked from here [7d2dModlets](https://github.com/Khelldon/7d2dModlets)
