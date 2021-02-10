@@ -1,5 +1,6 @@
 # REPO HAS BEEN MOVED!
 No longer committing code to this fork, instead made new repos for ease of use in the 7D2D Mod Launcher
+This repo is staying here as you can see the fork from Khelldon's original mod page, and is used to refirect you to the latest repo version you are looking for. 
 
 # For 7D2D version a19: 
 [7D2D-Doughs-Khelldons-Mods-a19](https://github.com/doughphunghus/7D2D-Doughs-Khelldons-Mods-a19)
